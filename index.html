@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kandhavi Aari Designs</title>
+<meta name="description" content="Latest hand-embroidered aari work by Kandhavi Aari Designs. See our newest blouse, bridal and saree designs and order on WhatsApp.">
+<meta name="theme-color" content="#5E0F3A">
+<!-- Link preview for WhatsApp / Instagram / Facebook. If your repository name is not kandhavi-aari, change the two URLs below. -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Kandhavi Aari Designs">
+<meta property="og:description" content="See our latest hand-embroidered aari work and order on WhatsApp.">
+<meta property="og:url" content="https://rajarajan133.github.io/kandhavi-aari/">
+<meta property="og:image" content="https://rajarajan133.github.io/kandhavi-aari/logo.jpg">
+<link rel="icon" href="favicon.jpg">
+<link rel="apple-touch-icon" href="favicon.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Mukta+Malar:wght@400;500;600&family=Pinyon+Script&display=swap" rel="stylesheet">
+<style>
+:root{
+  --wine:#5E0F3A; --wine-deep:#3E0826; --petal:#B8306F; --gold:#C9A24A; --gold-soft:#E6CC86;
+  --page:#FBF4E4; --surface:#FFFAF0; --ink:#3A1027; --muted:#7A5465; --line:#E3CFA0;
+  --chip:#F3E5C4; --onwine:#FBF0D9;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px);
+  padding-bottom:env(safe-area-inset-bottom,0px);
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --page:#24081A; --surface:#30102A; --ink:#F6E7CB; --muted:#CDB0A9; --line:#5A2A45;
+    --chip:#3D1533; --petal:#E46AA3; color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --page:#24081A; --surface:#30102A; --ink:#F6E7CB; --muted:#CDB0A9; --line:#5A2A45;
+  --chip:#3D1533; --petal:#E46AA3; color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:inherit}
+[hidden]{display:none!important}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+html{scroll-padding-top:env(safe-area-inset-top,0px);background:var(--wine-deep)}
+body{margin:0;background:var(--page);color:var(--ink);font-family:"Mukta Malar","Noto Sans Tamil",system-ui,sans-serif;font-size:17px;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+a{color:inherit}
+
+/* Hero */
+.hero{position:relative;background:
+  radial-gradient(120% 70% at 20% 10%,#7A1A4E 0%,transparent 60%),
+  radial-gradient(90% 60% at 90% 80%,#4A0B2E 0%,transparent 70%),
+  repeating-linear-gradient(115deg,rgba(255,255,255,.025) 0 2px,transparent 2px 14px),
+  var(--wine);
+  color:var(--onwine);text-align:center;padding:48px 20px 0;overflow:hidden}
+.medal{width:min(78vw,360px);aspect-ratio:1;margin:0 auto;border-radius:50%;overflow:hidden;
+  box-shadow:0 0 0 3px var(--gold),0 0 0 9px rgba(201,162,74,.18),0 24px 60px rgba(0,0,0,.45)}
+.medal img{width:100%;height:100%;object-fit:cover}
+.hero h1{font-family:"Pinyon Script",cursive;font-weight:400;font-size:clamp(44px,11vw,72px);line-height:1.1;margin:28px 0 0;color:var(--gold-soft)}
+.hero .sub{font-family:Marcellus,Georgia,serif;font-size:19px;letter-spacing:.04em;margin:4px 0 0}
+.hero p.tag{max-width:30em;margin:24px auto 0;color:#EBD7C9;font-size:16px}
+.cta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin:26px 0 0}
+.btn{display:inline-flex;align-items:center;gap:8px;border:0;border-radius:999px;padding:12px 22px;font-weight:600;font-size:16px;cursor:pointer;text-decoration:none}
+.btn-gold{background:var(--gold);color:#3A0A22}
+.btn-ghost{background:transparent;color:var(--onwine);box-shadow:inset 0 0 0 1.5px rgba(230,204,134,.7)}
+.btn-wa{background:#1F8A4C;color:#fff}
+.thread{display:block;width:100%;height:90px;margin-top:22px}
+.thread path{fill:none;stroke:var(--gold);stroke-width:2;stroke-linecap:round;stroke-dasharray:1400;stroke-dashoffset:1400;animation:sew 2.4s .3s ease-out forwards}
+@keyframes sew{to{stroke-dashoffset:0}}
+@media (prefers-reduced-motion:reduce){.thread path{animation:none;stroke-dashoffset:0}}
+
+/* Gallery */
+main{max-width:1120px;margin:0 auto;padding:36px 18px 56px}
+.head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap}
+h2{font-family:Marcellus,Georgia,serif;font-weight:400;font-size:clamp(28px,6vw,38px);margin:0;color:var(--ink)}
+.count{color:var(--muted);font-size:15px}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:16px 0 6px;scrollbar-width:none}
+.chips::-webkit-scrollbar{display:none}
+.chip{flex:none;border:1px solid var(--line);background:transparent;border-radius:999px;padding:6px 16px;cursor:pointer;color:var(--ink);font-size:15px}
+.chip[aria-pressed="true"]{background:var(--wine);border-color:var(--wine);color:#FBF0D9}
+.grid{columns:2 160px;column-gap:14px;margin-top:14px}
+@media (min-width:720px){.grid{columns:3 220px;column-gap:20px}}
+.work{break-inside:avoid;margin:0 0 18px;cursor:pointer;background:none;border:0;padding:0;text-align:left;width:100%;display:block}
+.frame{position:relative;border-radius:14px;overflow:hidden;background:var(--chip);padding:5px}
+.frame img{border-radius:10px;width:100%;height:auto}
+.frame::after{content:"";position:absolute;inset:5px;border-radius:10px;box-shadow:inset 0 0 0 1px rgba(201,162,74,.55);pointer-events:none}
+.new{position:absolute;top:12px;left:12px;background:var(--gold);color:#3A0A22;font-size:12px;font-weight:600;padding:2px 10px;border-radius:999px;z-index:1}
+.work .t{font-family:Marcellus,Georgia,serif;font-size:17px;margin:8px 2px 0;line-height:1.3}
+.work .c{font-size:13px;color:var(--muted);margin:0 2px}
+.empty{border:1.5px dashed var(--line);border-radius:18px;padding:40px 22px;text-align:center;color:var(--muted);margin-top:20px}
+.empty strong{display:block;font-family:Marcellus,Georgia,serif;font-weight:400;font-size:22px;color:var(--ink);margin-bottom:6px}
+
+/* About + footer */
+.about{background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.about-in{max-width:760px;margin:0 auto;padding:44px 20px;text-align:center}
+.about-in p{margin:10px auto 0;max-width:34em}
+.contact{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:22px}
+.btn-line{background:transparent;color:var(--ink);box-shadow:inset 0 0 0 1.5px var(--line)}
+footer{background:var(--wine-deep);color:#D9BFB3;text-align:center;padding:26px 20px 34px;font-size:14px}
+footer .sig{font-family:"Pinyon Script",cursive;font-size:30px;color:var(--gold-soft);display:block}
+
+/* Lightbox */
+.lb{position:fixed;inset:0;z-index:50;background:rgba(30,4,18,.97);display:none;flex-direction:column;padding:calc(12px + env(safe-area-inset-top,0px)) 12px calc(16px + env(safe-area-inset-bottom,0px))}
+.lb.open{display:flex}
+.lb-top{display:flex;justify-content:space-between;align-items:center;color:#F3E2C6}
+.iconbtn{background:rgba(255,255,255,.1);border:0;color:#F3E2C6;width:44px;height:44px;border-radius:50%;font-size:22px;cursor:pointer;display:grid;place-items:center}
+.lb-img{position:relative;flex:1;min-height:0;display:flex;align-items:center;justify-content:center;margin:10px 0}
+.lb-img .iconbtn{position:absolute;top:50%;transform:translateY(-50%);background:rgba(30,4,18,.6);z-index:1}
+#lbPrev{left:4px}#lbNext{right:4px}
+.lb-img img{max-height:100%;max-width:100%;object-fit:contain;border-radius:8px}
+.lb-cap{color:#F3E2C6;text-align:center}
+.lb-cap .t{font-family:Marcellus,Georgia,serif;font-size:21px}
+.lb-cap .d{color:#D6BCAF;font-size:15px;max-width:34em;margin:2px auto 0}
+.lb-cap .btn{margin-top:12px}
+
+.note{font-size:14px;color:var(--muted)}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="medal"><img src="logo.jpg" alt="Kandhavi Aari Designs logo" width="800" height="800"></div>
+  <h1 class="sr">Kandhavi Aari Designs</h1>
+  <p class="tag" id="tagline"></p>
+  <div class="cta">
+    <a class="btn btn-gold" href="#work">See latest work</a>
+    <a class="btn btn-ghost" id="heroWa" target="_blank" rel="noopener" hidden>Order on WhatsApp</a>
+  </div>
+  <svg class="thread" viewBox="0 0 1200 90" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M-10 60 C 150 10, 260 90, 420 50 S 690 10, 820 55 S 1010 85, 1080 40 C 1120 15, 1160 30, 1150 45 C 1140 60, 1110 52, 1125 38 L 1210 20"/>
+  </svg>
+</header>
+
+<main id="work">
+  <div class="head"><h2>Latest work</h2><span class="count" id="count"></span></div>
+  <div class="chips" id="chips" role="toolbar" aria-label="Filter by type"></div>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden></div>
+</main>
+
+<section class="about">
+  <div class="about-in">
+    <h2>Made by hand, stitch by stitch</h2>
+    <p id="about"></p>
+    <div class="contact" id="contact"></div>
+  </div>
+</section>
+
+<footer><span class="sig">Kandhavi</span><span id="foot"></span></footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Design photo">
+  <div class="lb-top"><span id="lbPos"></span><button class="iconbtn" id="lbClose" aria-label="Close">✕</button></div>
+  <div class="lb-img"><button class="iconbtn" id="lbPrev" aria-label="Previous">‹</button><img id="lbImg" alt=""><button class="iconbtn" id="lbNext" aria-label="Next">›</button></div>
+  <div class="lb-cap"><div class="t" id="lbT"></div><div class="d" id="lbD"></div><a class="btn btn-wa" id="lbWa" target="_blank" rel="noopener" hidden>Ask about this design</a></div>
+</div>
+
+<script>
+(function(){
+  var $ = function(id){return document.getElementById(id)};
+  var S = {shop:{}, categories:[], photos:[]}, filter='All', view=[], idx=0;
+
+  function el(tag, cls, text){var e=document.createElement(tag); if(cls) e.className=cls; if(text!=null) e.textContent=text; return e;}
+  function waLink(text){
+    var n=String(S.shop.whatsapp||'').replace(/\D/g,''); if(!n) return '';
+    return 'https://wa.me/'+n+(text?'?text='+encodeURIComponent(text):'');
+  }
+  function when(p){var d=Date.parse(p.date); return isNaN(d)?0:d}
+  function isNew(p){var d=when(p); return d && (Date.now()-d) < 21*864e5}
+  function fmtDate(p){var d=when(p); return d?new Date(d).toLocaleDateString('en-IN',{month:'short',year:'numeric'}):''}
+  function src(p){var f=String(p.file||''); return /^(https?:)?\/\//.test(f)||f.indexOf('/')>=0 ? f : 'photos/'+f}
+
+  function renderShop(){
+    var sh=S.shop;
+    $('tagline').textContent=sh.tagline||'';
+    $('about').textContent=sh.about||'';
+    var w=waLink('Hi Kandhavi Aari Designs, I’d like to place an order.');
+    var hw=$('heroWa'); if(w){hw.href=w;hw.hidden=false}else hw.hidden=true;
+    var c=$('contact'); c.textContent='';
+    if(w){var a=el('a','btn btn-wa','Message on WhatsApp'); a.href=w; a.target='_blank'; a.rel='noopener'; c.append(a)}
+    if(sh.phone){var p=el('a','btn btn-line','Call '+sh.phone); p.href='tel:'+String(sh.phone).replace(/[^\d+]/g,''); c.append(p)}
+    if(sh.instagram){var u=String(sh.instagram).replace(/^@/,''); var ig=el('a','btn btn-line','Instagram @'+u); ig.href='https://instagram.com/'+encodeURIComponent(u); ig.target='_blank'; ig.rel='noopener'; c.append(ig)}
+    $('foot').textContent=sh.location?'Aari work from '+sh.location:'Hand aari embroidery';
+  }
+
+  function renderGallery(){
+    var photos=S.photos;
+    var cats=['All'].concat(S.categories.filter(function(cat){return photos.some(function(p){return p.type===cat})}));
+    photos.forEach(function(p){if(p.type && cats.indexOf(p.type)<0) cats.push(p.type)});
+    if(cats.indexOf(filter)<0) filter='All';
+    var ch=$('chips'); ch.textContent=''; ch.hidden=cats.length<3;
+    cats.forEach(function(cat){
+      var b=el('button','chip',cat); b.type='button'; b.setAttribute('aria-pressed',cat===filter);
+      b.onclick=function(){filter=cat; renderGallery()}; ch.append(b);
+    });
+    view=photos.filter(function(p){return filter==='All'||p.type===filter});
+    $('count').textContent=photos.length?photos.length+(photos.length===1?' design':' designs'):'';
+    var g=$('grid'); g.textContent='';
+    view.forEach(function(p,i){
+      var b=el('button','work'); b.type='button';
+      var f=el('div','frame'); if(isNew(p)) f.append(el('span','new','New'));
+      var im=document.createElement('img'); im.src=src(p); im.alt=p.name||'Aari work design'; im.loading='lazy';
+      im.onerror=function(){b.hidden=true};
+      f.append(im); b.append(f);
+      if(p.name) b.append(el('div','t',p.name));
+      b.append(el('div','c',[p.type,fmtDate(p)].filter(Boolean).join(', ')));
+      b.onclick=function(){openLb(i)}; g.append(b);
+    });
+    var e=$('empty');
+    if(!photos.length){
+      e.hidden=false; e.textContent='';
+      e.append(el('strong',null,'New designs are on the way'));
+      e.append(el('span',null,'Message us on WhatsApp to see our recent work.'));
+    } else e.hidden=true;
+  }
+
+  function openLb(i){idx=i; showLb(); $('lb').classList.add('open'); document.body.style.overflow='hidden'; $('lbClose').focus()}
+  function closeLb(){$('lb').classList.remove('open'); document.body.style.overflow=''}
+  function showLb(){
+    var p=view[idx]; if(!p) return;
+    $('lbImg').src=src(p); $('lbImg').alt=p.name||'Aari work design';
+    $('lbT').textContent=p.name||p.type||''; $('lbD').textContent=p.note||'';
+    $('lbPos').textContent=(idx+1)+' of '+view.length;
+    var w=waLink('Hi, I’m interested in this design: '+(p.name||p.type||'from your gallery')+'. Can you share the price and time needed?');
+    var a=$('lbWa'); if(w){a.href=w;a.hidden=false}else a.hidden=true;
+    var many=view.length>1; $('lbPrev').style.visibility=many?'visible':'hidden'; $('lbNext').style.visibility=many?'visible':'hidden';
+  }
+  function step(d){idx=(idx+d+view.length)%view.length; showLb()}
+  $('lbClose').onclick=closeLb; $('lbPrev').onclick=function(){step(-1)}; $('lbNext').onclick=function(){step(1)};
+  $('lb').addEventListener('click',function(e){if(e.target.id==='lb'||e.target.classList.contains('lb-img'))closeLb()});
+  document.addEventListener('keydown',function(e){
+    if(!$('lb').classList.contains('open'))return;
+    if(e.key==='Escape')closeLb(); if(e.key==='ArrowLeft')step(-1); if(e.key==='ArrowRight')step(1);
+  });
+  var tx=null;
+  $('lb').addEventListener('touchstart',function(e){tx=e.touches[0].clientX},{passive:true});
+  $('lb').addEventListener('touchend',function(e){if(tx==null)return; var dx=e.changedTouches[0].clientX-tx; if(Math.abs(dx)>50)step(dx<0?1:-1); tx=null});
+
+  fetch('photos.json',{cache:'no-cache'}).then(function(r){if(!r.ok)throw new Error(r.status); return r.json()}).then(function(d){
+    S.shop=d.shop||{}; S.categories=Array.isArray(d.categories)?d.categories:[];
+    S.photos=(Array.isArray(d.photos)?d.photos:[]).filter(function(p){return p&&p.file})
+      .map(function(p,i){p._i=i; return p})
+      .sort(function(a,b){return (when(b)-when(a))||(b._i-a._i)});
+    renderShop(); renderGallery();
+  }).catch(function(){
+    var e=$('empty'); e.hidden=false; e.textContent='';
+    e.append(el('strong',null,'Gallery couldn’t load'));
+    e.append(el('span',null,'Check that photos.json is valid. Open it in GitHub and look for a missing comma or quote.'));
+  });
+})();
+</script>
+</body>
+</html>
