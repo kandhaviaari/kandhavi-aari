@@ -9,5 +9,7 @@
   },
   "categories": ["Bridal blouse", "Blouse", "Saree", "Kids wear", "Others"],
   "photos": [
+  { "file": "bridal-blouse-1.jpg", "name": "Peacock bridal blouse", "type": "Bridal blouse", "date": "2026-11-19" },
+  { "file": "saree-border-1.jpg", "name": "Gold zardosi saree border", "type": "Saree", "date": "2026-11-19" }
   ]
 }
