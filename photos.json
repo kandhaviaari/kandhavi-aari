@@ -9,11 +9,11 @@
   },
   "categories": ["Bridal blouse", "Blouse", "Saree", "Kids wear", "Others"],
   "photos": [
-    { "file": "./1.jpg", "name": "Aari design 1", "type": "Blouse",  },
-    { "file": "./2.jpg", "name": "Aari design 2", "type": "Blouse",  },
-    { "file": "./3.jpg", "name": "Aari design 3", "type": "Blouse",  },
-    { "file": "./4.jpg", "name": "Aari design 4", "type": "Blouse",  },
-    { "file": "./5.jpg", "name": "Aari design 5", "type": "Blouse",  },
-    { "file": "./6.jpg", "name": "Aari design 6", "type": "Blouse",  }
+    { "file": "./1.jpg", "name": "Aari design 1", "type": "Blouse"},
+    { "file": "./2.jpg", "name": "Aari design 2", "type": "Blouse"},
+    { "file": "./3.jpg", "name": "Aari design 3", "type": "Blouse"},
+    { "file": "./4.jpg", "name": "Aari design 4", "type": "Blouse"},
+    { "file": "./5.jpg", "name": "Aari design 5", "type": "Blouse"},
+    { "file": "./6.jpg", "name": "Aari design 6", "type": "Blouse"}
   ]
 }
