@@ -1,17 +1,19 @@
 {
   "shop": {
-    "instagram": "kandhaviaari",
-    "location": "",
+    "whatsapp": "919363691288",
+    "phone": "919363691288",
+    "instagram": "Kandhavi Aari designs",
+    "location": "Mayiladuthurai",
     "tagline": "Hand-embroidered aari work for bridal blouses, sarees and festive wear, made to your design.",
     "about": "Every piece is stitched by hand with zardosi, beads, stones and thread work. Share your blouse or saree, pick a design you like here, and we’ll make it to suit your occasion and budget."
   },
   "categories": ["Bridal blouse", "Blouse", "Saree", "Kids wear", "Others"],
   "photos": [
-    { "file": "./1.jpg", "name": "Aari design 1", "type": "Blouse", "date": "2026-11-19" },
-    { "file": "./2.jpg", "name": "Aari design 2", "type": "Blouse", "date": "2026-11-19" },
-    { "file": "./3.jpg", "name": "Aari design 3", "type": "Blouse", "date": "2026-11-19" },
-    { "file": "./4.jpg", "name": "Aari design 4", "type": "Blouse", "date": "2026-11-19" },
-    { "file": "./5.jpg", "name": "Aari design 5", "type": "Blouse", "date": "2026-11-19" },
-    { "file": "./6.jpg", "name": "Aari design 6", "type": "Blouse", "date": "2026-11-19" }
+    { "file": "./1.jpg", "name": "Aari design 1", "type": "Blouse",  },
+    { "file": "./2.jpg", "name": "Aari design 2", "type": "Blouse",  },
+    { "file": "./3.jpg", "name": "Aari design 3", "type": "Blouse",  },
+    { "file": "./4.jpg", "name": "Aari design 4", "type": "Blouse",  },
+    { "file": "./5.jpg", "name": "Aari design 5", "type": "Blouse",  },
+    { "file": "./6.jpg", "name": "Aari design 6", "type": "Blouse",  }
   ]
 }
